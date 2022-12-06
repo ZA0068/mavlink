@@ -1,0 +1,10 @@
+devel_space: /home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion
+  11/mavlink/devel
+install: false
+install_space: /home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion
+  11/mavlink/install
+profile: default
+source_space: /home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion
+  11/mavlink/src
+workspace: /home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion
+  11/mavlink

@@ -1,0 +1,423 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include",
+			"generate_messages",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/build/mavlink_lora/cmake/mavlink_lora-genmsg.cmake",
+			"/opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 307,
+				"parent" : 1
+			},
+			{
+				"file" : 0,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 244,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 263,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 259,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 261,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 265,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1014,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 279,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 251,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 255,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 267,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 275,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 281,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 269,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 285,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 271,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 257,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 283,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 287,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 253,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 277,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "_mavlink_lora_generate_messages_check_deps_mavlink_lora_mission_ack::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "_mavlink_lora_generate_messages_check_deps_mavlink_lora_mission_item_int::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "_mavlink_lora_generate_messages_check_deps_mavlink_lora_mission_list::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "_mavlink_lora_generate_messages_check_deps_mavlink_lora_command_ack::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "std_msgs_generate_messages_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "_mavlink_lora_generate_messages_check_deps_mavlink_lora_command_takeoff::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "_mavlink_lora_generate_messages_check_deps_mavlink_lora_msg::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "_mavlink_lora_generate_messages_check_deps_mavlink_lora_pos::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "_mavlink_lora_generate_messages_check_deps_mavlink_lora_command_start_mission::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "_mavlink_lora_generate_messages_check_deps_mavlink_lora_set_position_target_local_ned::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "_mavlink_lora_generate_messages_check_deps_mavlink_lora_heartbeat::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "_mavlink_lora_generate_messages_check_deps_mavlink_lora_command_land::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "_mavlink_lora_generate_messages_check_deps_mavlink_lora_command_set_mode::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "_mavlink_lora_generate_messages_check_deps_mavlink_lora_gps_raw::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "_mavlink_lora_generate_messages_check_deps_mavlink_lora_statustext::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "_mavlink_lora_generate_messages_check_deps_mavlink_lora_attitude::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 21,
+			"id" : "_mavlink_lora_generate_messages_check_deps_mavlink_lora_command_reposition::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "_mavlink_lora_generate_messages_check_deps_mavlink_lora_radio_status::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "_mavlink_lora_generate_messages_check_deps_mavlink_lora_status::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "_mavlink_lora_generate_messages_check_deps_mavlink_lora_enable_offboard::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "mavlink_lora_generate_messages_cpp::@6890427a1f51a3e7e1df",
+	"name" : "mavlink_lora_generate_messages_cpp",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/build/mavlink_lora/CMakeFiles/mavlink_lora_generate_messages_cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/build/mavlink_lora/CMakeFiles/mavlink_lora_generate_messages_cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/devel/.private/mavlink_lora/include/mavlink_lora/mavlink_lora_msg.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/devel/.private/mavlink_lora/include/mavlink_lora/mavlink_lora_status.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/devel/.private/mavlink_lora/include/mavlink_lora/mavlink_lora_pos.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/devel/.private/mavlink_lora/include/mavlink_lora/mavlink_lora_attitude.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/devel/.private/mavlink_lora/include/mavlink_lora/mavlink_lora_mission_item_int.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/devel/.private/mavlink_lora/include/mavlink_lora/mavlink_lora_mission_list.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/devel/.private/mavlink_lora/include/mavlink_lora/mavlink_lora_mission_ack.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/devel/.private/mavlink_lora/include/mavlink_lora/mavlink_lora_command_ack.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/devel/.private/mavlink_lora/include/mavlink_lora/mavlink_lora_command_start_mission.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/devel/.private/mavlink_lora/include/mavlink_lora/mavlink_lora_command_set_mode.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/devel/.private/mavlink_lora/include/mavlink_lora/mavlink_lora_statustext.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/devel/.private/mavlink_lora/include/mavlink_lora/mavlink_lora_heartbeat.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/devel/.private/mavlink_lora/include/mavlink_lora/mavlink_lora_set_position_target_local_ned.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/devel/.private/mavlink_lora/include/mavlink_lora/mavlink_lora_enable_offboard.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/devel/.private/mavlink_lora/include/mavlink_lora/mavlink_lora_command_takeoff.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/devel/.private/mavlink_lora/include/mavlink_lora/mavlink_lora_command_land.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/devel/.private/mavlink_lora/include/mavlink_lora/mavlink_lora_command_reposition.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/devel/.private/mavlink_lora/include/mavlink_lora/mavlink_lora_gps_raw.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/devel/.private/mavlink_lora/include/mavlink_lora/mavlink_lora_radio_status.h.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

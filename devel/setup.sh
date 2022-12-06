@@ -1,0 +1,1 @@
+/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/devel/.private/catkin_tools_prebuild/setup.sh

@@ -1,0 +1,8 @@
+prefix=/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/install
+
+Name: mavlink_lora
+Description: Description of mavlink_lora
+Version: 1.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs message_runtime

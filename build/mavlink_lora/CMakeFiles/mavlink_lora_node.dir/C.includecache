@@ -1,0 +1,50 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/src/mavlink_lora/include/mavlink_lora_lib.h
+stdint.h
+/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/src/mavlink_lora/include/stdint.h
+math.h
+/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/src/mavlink_lora/include/math.h
+
+/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/src/mavlink_lora/include/serial.h
+stdlib.h
+/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/src/mavlink_lora/include/stdlib.h
+termios.h
+/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/src/mavlink_lora/include/termios.h
+
+/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/src/mavlink_lora/src/checksum.h
+stdint.h
+-
+
+/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/src/mavlink_lora/src/mavlink_lora_lib.c
+stdio.h
+-
+string.h
+-
+../include/mavlink_lora_lib.h
+/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/src/mavlink_lora/include/mavlink_lora_lib.h
+checksum.h
+/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/src/mavlink_lora/src/checksum.h
+
+/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/src/mavlink_lora/src/serial.c
+time.h
+-
+unistd.h
+-
+fcntl.h
+-
+sys/signal.h
+-
+sys/types.h
+-
+stdio.h
+-
+../include/serial.h
+/home/zain/Documents/1st_semester/Introduktion til Drone Teknologi/Lektion 11/mavlink/src/mavlink_lora/include/serial.h
+
