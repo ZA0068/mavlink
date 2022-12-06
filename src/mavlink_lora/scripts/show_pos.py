@@ -114,7 +114,7 @@ class pos_node:
 		directory_path = os.path.dirname(os.path.realpath(__file__))
 		directory_path = os.path.dirname(directory_path)
 		directory_path = os.path.dirname(directory_path)
-		source_directory = os.path.join(directory_path, 'planner generator', 'Data', 'Raw data')
+		source_directory = os.path.join(directory_path, 'Planner generator', 'Data', 'Raw data')
 		data = [[],[],[]]
 		# loop until shutdown
 		while not (rospy.is_shutdown()):		
