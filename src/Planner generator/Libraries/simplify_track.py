@@ -111,7 +111,7 @@ class TrackSimplifier(DirectoryManipulator):
     def extractLatLonAlt(self):
         try:
             data = self.readFile()
-            self.latitude = data[:, 1]
+            self.latitude = data[:, 0]
             self.longitude = data[:, 1]
             if data.shape[1] == 3:
                 self.altitude = data[:, 2]

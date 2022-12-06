@@ -28,7 +28,7 @@ class FlightPathGenerator(DirectoryManipulator):
 def main():
     if len(sys.argv) == 1:
         flightpath = FlightPathGenerator('positions.csv')
-        flightpath.setHomePosition(0.0, 0.0, 0.0) # Set home position
+        flightpath.setHomePosition(55.3679319,10.4319423,22.045) # Set home position
     else:
         flightpath = FlightPathGenerator(sys.argv[1])
         flightpath.setHomePosition(input("Homepos Latitude "), input("Homepos Longitude "), input("Homepos Altitude "))
