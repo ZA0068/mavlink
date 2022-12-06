@@ -122,7 +122,7 @@ class pos_node:
 			# do stuff
 			self.printPos()
 			
-			data.append([self.lon, self.lat, self.alt])
+			data.append([self.lat, self.lon, self.alt])
 						
 			# sleep the defined interval
 			self.rate.sleep()
