@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from Libraries.utm import utmconv
 from Libraries.dir_manipulator import DirectoryManipulator
+from Libraries.IQR import *
 import rdp
 from Libraries.exportkml import kmlclass
 
@@ -111,14 +112,16 @@ class TrackSimplifier(DirectoryManipulator):
     def extractLatLonAlt(self):
         try:
             data = self.readFile()
+            #data = IQROutlierReject(data)
             self.latitude = data[:, 0]
             self.longitude = data[:, 1]
             if data.shape[1] == 3:
                 self.altitude = data[:, 2]
             else:
                 [self.altitude.append(50) for i in range(len(self.latitude))]
-        except:
-            print('Error in extracting data: ' + self.file_name + self.file_extension)
+        except Exception as e:
+            print(e)
+            return 1
         finally:
             return 0
 
